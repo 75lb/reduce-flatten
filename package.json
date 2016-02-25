@@ -1,0 +1,23 @@
+{
+  "name": "reduce-flatten",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.0.0",
+  "description": "reduce-flatten",
+  "repository": "https://github.com/75lb/reduce-flatten.git",
+  "license": "MIT",
+  "main": "./lib/reduce-flatten.js",
+  "bin": {
+    "reduce-flatten": "bin/cli.js"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "docs": "jsdoc2md2 -t jsdoc2md/README.md lib/*.js > README.md; echo"
+  },
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
