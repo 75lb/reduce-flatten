@@ -2,14 +2,11 @@
   "name": "reduce-flatten",
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "0.0.0",
-  "description": "reduce-flatten",
+  "description": "Flatten an array into the supplied array.",
   "repository": "https://github.com/75lb/reduce-flatten.git",
   "license": "MIT",
   "main": "./lib/reduce-flatten.js",
-  "bin": {
-    "reduce-flatten": "bin/cli.js"
-  },
-  "keywords": [],
+  "keywords": [ "array", "reduce", "flatten" ],
   "engines": {
     "node": ">=0.10.0"
   },

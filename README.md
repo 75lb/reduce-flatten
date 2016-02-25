@@ -6,6 +6,8 @@
 
 <a name="module_reduce-flatten"></a>
 ## reduce-flatten
+Flatten an array into the supplied array.
+
   
 **Example**
 ```js
@@ -13,11 +15,9 @@ var flatten = require('reduce-flatten')
 ```
 
 
-<a name="module_reduce-flatten..flatten"></a>
-### reduce-flatten~flatten(prev)
-flatten an array of arrays into the supplied array.
-
-**Kind**: inner method of [`reduce-flatten`](#module_reduce-flatten)  
+<a name="exp_module_reduce-flatten--flatten"></a>
+### flatten(prev) ⏏
+**Kind**: Exported function  
 
 | Param | Type    | Description     |
 | ----- | ------- | --------------- |
