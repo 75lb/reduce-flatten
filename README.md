@@ -16,12 +16,9 @@ var flatten = require('reduce-flatten')
 
 
 <a name="exp_module_reduce-flatten--flatten"></a>
-### flatten(prev) ⏏
+### flatten() ⏏
 **Kind**: Exported function  
 
-| Param | Type    | Description     |
-| ----- | ------- | --------------- |
-| prev  | `Array` | the input array |
 
 
 **Example**
