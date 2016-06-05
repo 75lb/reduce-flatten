@@ -1,7 +1,7 @@
 {
   "name": "reduce-flatten",
   "author": "Lloyd Brookes <75pound@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flatten an array into the supplied array.",
   "repository": "https://github.com/75lb/reduce-flatten.git",
   "license": "MIT",
