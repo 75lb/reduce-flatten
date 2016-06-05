@@ -19,6 +19,6 @@
     "docs": "jsdoc2md2 -t jsdoc2md/README.md lib/*.js > README.md; echo"
   },
   "devDependencies": {
-    "tape": "^4.4.0"
+    "tape": "^4.5.1"
   }
 }
