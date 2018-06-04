@@ -1,11 +1,9 @@
-'use strict'
-
 /**
  * Flatten an array into the supplied array.
  *
  * @module reduce-flatten
  * @example
- * var flatten = require('reduce-flatten')
+ * const flatten = require('reduce-flatten')
  */
 module.exports = flatten
 
