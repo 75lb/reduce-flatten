@@ -5,7 +5,6 @@
  * @example
  * const flatten = require('reduce-flatten')
  */
-module.exports = flatten
 
 /**
  * @alias module:reduce-flatten
@@ -17,3 +16,5 @@ module.exports = flatten
 function flatten (prev, curr) {
   return prev.concat(curr)
 }
+
+export default flatten
