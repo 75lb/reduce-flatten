@@ -13,8 +13,13 @@
  * > numbers.reduce(flatten, [])
  * [ 1, 2, 3, 4, 5 ]
  */
-function flatten (prev, curr) {
-  return prev.concat(curr)
+function flatten (arr, curr) {
+  if (Array.isArray(curr)) {
+    arr.push(...curr)
+  } else {
+    arr.push(curr)
+  }
+  return arr
 }
 
 export default flatten

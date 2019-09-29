@@ -28,5 +28,10 @@
   "files": [
     "index.mjs",
     "dist/index.js"
-  ]
+  ],
+  "standard": {
+    "ignore": [
+      "dist"
+    ]
+  }
 }
