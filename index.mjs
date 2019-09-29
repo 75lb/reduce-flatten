@@ -1,5 +1,5 @@
 /**
- * Flatten an array into the supplied array.
+ * Isomorphic map-reduce function to flatten an array into the supplied array.
  *
  * @module reduce-flatten
  * @example

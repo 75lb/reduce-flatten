@@ -7,7 +7,7 @@
 <a name="module_reduce-flatten"></a>
 
 ## reduce-flatten
-Flatten an array into the supplied array.
+Isomorphic map-reduce function to flatten an array into the supplied array.
 
 **Example**  
 ```js
