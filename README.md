@@ -24,6 +24,34 @@ const flatten = require('reduce-flatten')
 [ 1, 2, 3, 4, 5 ]
 ```
 
+### Load anywhere
+
+This library is compatible with Node.js, the Web and any style of module loader. It can be loaded anywhere, natively without transpilation.
+
+Node.js:
+
+```js
+const arrayify = require('reduce-flatten')
+```
+
+Within Node.js with ECMAScript Module support enabled:
+
+```js
+import arrayify from 'reduce-flatten'
+```
+
+Within an modern browser ECMAScript Module:
+
+```js
+import arrayify from './node_modules/reduce-flatten/index.mjs'
+```
+
+Old browser (adds `window.flatten`):
+
+```html
+<script nomodule src="./node_modules/reduce-flatten/dist/index.js"></script>
+```
+
 * * *
 
 &copy; 2016-19 Lloyd Brookes \<75pound@gmail.com\>. Documented by [jsdoc-to-markdown](https://github.com/jsdoc2md/jsdoc-to-markdown).
